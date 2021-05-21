@@ -24,5 +24,6 @@ build/%.o: %.c
 	@$(CC) $(CFL) -o $@ $<
 
 clean:
+	@echo -e "CLN\t$(BIN) $(COBJ)"
 	@rm -rf build
 
