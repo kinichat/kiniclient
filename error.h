@@ -1,10 +1,6 @@
 #ifndef KINIC_ERROR_H
 #define KINIC_ERROR_H
 
-#ifndef KC_PORT
-    #define KC_PORT 15999
-#endif
-
 typedef enum KcError KcError;
 enum KcError {
     KC_ERROR_SUCCESS,

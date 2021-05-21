@@ -4,6 +4,10 @@
 #include <arpa/inet.h>
 #include "./error.h"
 
+#ifndef KC_PORT
+    #define KC_PORT 15999
+#endif
+
 typedef struct KcState KcState;
 struct KcState {
     int socket;
